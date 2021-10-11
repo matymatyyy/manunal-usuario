@@ -1,0 +1,109 @@
+body{
+    background-color:#ebd50bdc;
+    font-family:Calisto MT ;
+}
+ header{
+    text-align:center;
+ }
+
+.item {
+    border: 2px solid #000;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  
+  .item-title {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  .item-image {
+    height: 450px;
+    width: 500px;
+    display:block;
+    margin:0 auto 0 auto;
+
+  }
+  
+  .item-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px 15px;
+  }
+  
+ 
+  
+  
+  .shopping-cart-total {
+    min-height: 96px;
+  }
+  
+  .menu{
+    list-style: none;
+    padding: 0 px;
+    background: #092327;
+    width: 90%;
+    max-width: 100%;
+    margin: auto;
+  }
+
+  .menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    display: block;
+  }
+  
+  .menu li{
+    display: inline-block;
+    text-align: center;
+
+  }
+
+  .menu li a:hover{
+    background: crimson;
+  }
+
+  .online{
+    width: 91%;
+    height: 350px;
+    display:block;
+    margin:0 auto 0 auto;
+  }
+
+  .copy{
+    padding: 20px;
+    margin: 20px;
+    
+  }
+
+  .boton{
+    background-color: #4c56af;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+.comentario{
+  height: 100px;
+  width: 50%;
+}
+
+.nom{
+  height: 50px;
+  width: 30%;
+}
+
+.visa{
+  position: absolute;
+  top: 17%;
+  left: 53%;
+  height: 400px;
+  width: 600px;
+}
